@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>inliner</title>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+
+
+  <style type="text/css">
+    body {
+      background: pink;
+    }
+    td{
+      font-family: 'Courier New', Courier, 'Lucida Sans Typewriter';
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  {% include './_partials/01.html' %}
+
+  <table>
+    <tr>
+      <td>I am a td</td>
+    </tr>
+    <tr>
+      <td>in the main index</td>
+    </tr>
+    <tr>
+      <td>I am a td</td>
+    </tr>
+    <tr>
+      <td>also in the main index</td>
+    </tr>
+  </table>
+</body>
+
+</html>
